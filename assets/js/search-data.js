@@ -55,7 +55,7 @@ ninja.data = [{
               window.location.href = "/projects/10_project/";
             },},{id: "projects-development-of-non-cognitive-competences-and-academic-performance",
           title: 'Development of Non-Cognitive Competences and Academic Performance',
-          description: "Identifying how non-cognitive competences such as academic self-efficacy play a role in the education achievement gap, and how interventions can stimulate academic performance in students of lower socio-economic status.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-income-volatility-and-well-being",
