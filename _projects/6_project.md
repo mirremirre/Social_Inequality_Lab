@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Income Volatility, Psychological States, and Saving Decisions"
-description: Investigate how within-year income volatility drives financial stress, risk aversion, and suboptimal financial decision-making 
 importance: 3
+category: Financial Inequality and Social Capital
 ---
 
 **Zafira Shabrina** <br />
