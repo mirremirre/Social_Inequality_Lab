@@ -90,7 +90,7 @@ ninja.data = [{
               window.location.href = "/projects/7_project/";
             },},{id: "projects-social-capital",
           title: 'Social Capital',
-          description: "Studying the impact of social capital on social mobility, and examaning whether third parties account for it when evaluating individual achievement.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-inequality-and-partner-choice",
