@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Hair Cortisol as a Biomarker of Chronic Stress Linking Socioeconomic and Health Inequalities: A Meta-Analysis"
-description: A meta-analytic project that covers the relationship between socioeconomic status and chronic stress among healthy adults, with hair cortisol serving as a long-term, retrospective measure of cortisol concentrations. 
 importance: 3
+category: Biomarkers of Inequality
 ---
 
 **Alessandro van den Berg & Mirre Stallen** <br />
