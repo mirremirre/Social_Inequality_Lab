@@ -75,7 +75,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-exploring-the-impact-of-life-coaching-on-stress-and-decision-making-in-low-socioeconomic-communities",
           title: 'Exploring the Impact of Life Coaching on Stress and Decision-Making in Low Socioeconomic...',
-          description: "This study evaluates whether participation in a life coaching program for parents in Amsterdam Nieuw-West is associated with reductions in chronic stress, measured through both self-report and hair cortisol concentration.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-income-volatility-psychological-states-and-saving-decisions",
