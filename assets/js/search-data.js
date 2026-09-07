@@ -70,7 +70,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-hair-cortisol-as-a-biomarker-of-chronic-stress-linking-socioeconomic-and-health-inequalities-a-meta-analysis",
           title: 'Hair Cortisol as a Biomarker of Chronic Stress Linking Socioeconomic and Health Inequalities:...',
-          description: "A meta-analytic project that covers the relationship between socioeconomic status and chronic stress among healthy adults, with hair cortisol serving as a long-term, retrospective measure of cortisol concentrations.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-exploring-the-impact-of-life-coaching-on-stress-and-decision-making-in-low-socioeconomic-communities",
