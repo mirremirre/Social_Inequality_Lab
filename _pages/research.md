@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 horizontal: false
 ---
-<!-- pages/research.md -->
+
 {% assign category_order = "Trust and Inequality|Financial Inequality and Social Capital|Biomarkers of Inequality" | split: "|" %}
 
 <div class="projects">
