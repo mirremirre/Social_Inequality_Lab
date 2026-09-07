@@ -60,7 +60,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-income-volatility-and-well-being",
           title: 'Income Volatility and Well-Being',
-          description: "A scoping review mapping the relationships between income volatility and mental, physical, and social well-being.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-trust-the-rich-or-the-poor-how-does-ses-influence-trust",
