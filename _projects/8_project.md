@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Social Capital"
-description: Studying the impact of social capital on social mobility, and examaning whether third parties account for it when evaluating individual achievement.
 importance: 3
+category: Financial Inequality and Social Capital
 ---
 
 **Dr. Mirre Stallen** <br />
