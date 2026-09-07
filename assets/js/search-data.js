@@ -30,7 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "dropdown-trust-and-inequality",
+        },{id: "dropdown-all-projects",
+              title: "All Projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/research/";
+              },
+            },{id: "dropdown-trust-and-inequality",
               title: "Trust and Inequality",
               description: "",
               section: "Dropdown",
