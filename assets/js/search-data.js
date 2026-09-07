@@ -65,7 +65,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-trust-the-rich-or-the-poor-how-does-ses-influence-trust",
           title: 'Trust the Rich or the Poor: How Does SES Influence Trust?',
-          description: "Investigating how a person&#39;s socioeconomic status influences the amount of trust placed in them by people with low income, using a trust game paradigm.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-hair-cortisol-as-a-biomarker-of-chronic-stress-linking-socioeconomic-and-health-inequalities-a-meta-analysis",
