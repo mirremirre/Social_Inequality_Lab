@@ -80,7 +80,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "projects-income-volatility-psychological-states-and-saving-decisions",
           title: 'Income Volatility, Psychological States, and Saving Decisions',
-          description: "Investigate how within-year income volatility drives financial stress, risk aversion, and suboptimal financial decision-making",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-retirement-planning-among-financially-vulnerable-workers",
