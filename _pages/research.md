@@ -6,7 +6,15 @@ description: Active research projects at the Social Inequality Lab.
 nav: true
 nav_order: 3
 horizontal: false
----
+dropdown: true
+children:
+  - title: Trust and Inequality
+    permalink: /research/#trust-and-inequality
+  - title: Financial Inequality and Social Capital
+    permalink: /research/#financial-inequality-and-social-capital
+  - title: Biomarkers of Inequality
+    permalink: /research/#biomarkers-of-inequality
+--- 
 
 {% assign category_order = "Trust and Inequality|Financial Inequality and Social Capital|Biomarkers of Inequality" | split: "|" %}
 
