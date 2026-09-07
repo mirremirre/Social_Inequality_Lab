@@ -8,6 +8,9 @@ nav_order: 3
 horizontal: false
 dropdown: true
 children:
+  - title: All Projects
+    permalink: /research/
+  - title: divider
   - title: Trust and Inequality
     permalink: /research/#trust-and-inequality
   - title: Financial Inequality and Social Capital
