@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Income Volatility and Well-Being
-description: A scoping review mapping the relationships between income volatility and mental, physical, and social well-being.
 importance: 2
+category: Financial Inequality and Social Capital
 ---
 **Anya Elisabeth Benson**
 
