@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Development of Non-Cognitive Competences and Academic Performance
-description: Identifying how non-cognitive competences such as academic self-efficacy play a role in the education achievement gap, and how interventions can stimulate academic performance in students of lower socio-economic status.
 importance: 1
+category: Financial Inequality and Social Capital
 ---
 
 **Halima Bouras**
