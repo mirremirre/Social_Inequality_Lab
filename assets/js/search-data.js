@@ -53,8 +53,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-",
-          title: '',
+            },},{id: "projects-the-impact-of-unconditional-cash-transfers-on-biological-aging-in-children",
+          title: 'The Impact of Unconditional Cash Transfers on Biological Aging in Children',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
