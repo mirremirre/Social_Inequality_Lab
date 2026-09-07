@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Trust the Rich or the Poor: How Does SES Influence Trust?"
-description: Investigating how a person's socioeconomic status influences the amount of trust placed in them by people with low income, using a trust game paradigm.
 importance: 3
+category: Trust and Inequality
 ---
 
 **Mikołaj Antczak** <br />
