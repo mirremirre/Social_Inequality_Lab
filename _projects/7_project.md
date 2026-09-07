@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Retirement Planning Among Financially Vulnerable Workers"
-description: This project investigates the psychological and contextual factors that hinder or facilitate retirement planning among populations who bear disproportionate personal responsibility for their own retirement.
 importance: 3
+category: Financial Inequality and Social Capital
 ---
 
 **Zafira Shabrina** <br />
