@@ -53,6 +53,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
             },},{id: "projects-development-of-non-cognitive-competences-and-academic-performance",
           title: 'Development of Non-Cognitive Competences and Academic Performance',
           description: "",
