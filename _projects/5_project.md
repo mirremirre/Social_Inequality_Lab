@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Exploring the Impact of Life Coaching on Stress and Decision-Making in Low Socioeconomic Communities "
-description: This study evaluates whether participation in a life coaching program for parents in Amsterdam Nieuw-West is associated with reductions in chronic stress, measured through both self-report and hair cortisol concentration. 
 importance: 3
+category: Biomarkers of Inequality
 ---
 
 **Mirre Stallen & Alessandro van den Berg** <br />
