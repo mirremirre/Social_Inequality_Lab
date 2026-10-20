@@ -16,7 +16,6 @@ profiles:
       <p><a href="m.stallen@fsw.leidenuniv.nl">m.stallen@fsw.leidenuniv.nl</a></p>
       <p>Personal website:<a href="mirrestallen.com">http://www.mirrestallen.nl</a></p>
 
-
   # PhD Students
   - align: right
     image: fira.jpeg
@@ -34,6 +33,15 @@ profiles:
       <p>PhD Student</p>
       <p><a href="mailto:h.bouras@fsw.leidenuniv.nl">h.bouras@fsw.leidenuniv.nl</a></p>
 
+# Research Assistant
+  - align: right
+    image: alessandro.jpeg
+    content: about_ra.md
+    image_circular: true
+    more_info: >
+      <p>Research Assistant</p>
+      <p><a href="mailto:a.s.van.den.berg@fsw.leidenuniv.nl">a.s.van.den.berg@fsw.leidenuniv.nl</a></p>
+      
   # Bachelor's Students
   - align: right
     image: anya.jpeg
@@ -50,13 +58,4 @@ profiles:
     more_info: >
       <p>Bachelor's Student</p>
       <p><a href="mailto:mikolaj.antczak03@gmail.com">mikolaj.antczak03@gmail.com</a></p>
-
-  # Research Assistants
-  - align: right
-    image: alessandro.jpeg
-    content: about_ra.md
-    image_circular: true
-    more_info: >
-      <p>Research Assistant</p>
-      <p><a href="mailto:a.s.van.den.berg@fsw.leidenuniv.nl">a.s.van.den.berg@fsw.leidenuniv.nl</a></p>
 ---
