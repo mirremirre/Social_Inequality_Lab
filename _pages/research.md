@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 description: Active research projects at the Social Inequality Lab.
 nav: true
-nav_order: 3
+nav_order: 4
 horizontal: false
 dropdown: true
 children:
