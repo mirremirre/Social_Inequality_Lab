@@ -62,3 +62,44 @@ a:hover {
   margin-top: 10px;
   font-size: 0.95rem;
 }
+
+/* Research topics */
+.research-topic {
+  border: 1px solid #ddd;
+  border-left: 4px solid #8b66bc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  background: #fff;
+}
+
+.research-topic summary {
+  cursor: pointer;
+  padding: 14px 18px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #0D1B2A;
+  list-style: none;
+}
+
+.research-topic summary::-webkit-details-marker {
+  display: none;
+}
+
+.research-topic summary::after {
+  content: "+";
+  float: right;
+  color: #8b66bc;
+  font-weight: 700;
+}
+
+.research-topic[open] summary::after {
+  content: "\2212";
+}
+
+.research-topic[open] summary {
+  border-bottom: 1px solid #eee;
+}
+
+.research-blurb {
+  padding: 14px 18px 4px 18px;
+}
