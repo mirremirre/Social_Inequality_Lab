@@ -2,90 +2,55 @@
 layout: page
 title: Research
 permalink: /research/
-description: Active research projects at the Social Inequality Lab.
+description: Research topics at the Social Inequality Lab.
 nav: true
 nav_order: 4
-horizontal: false
-dropdown: true
-children:
-  - title: All Projects
-    permalink: /research/
-  - title: divider
-  - title: Trust and Inequality
-    permalink: /research/#trust-and-inequality
-  - title: Financial Inequality and Social Capital
-    permalink: /research/#financial-inequality-and-social-capital
-  - title: Biomarkers of Inequality
-    permalink: /research/#biomarkers-of-inequality
---- 
+---
 
-{% assign category_order = "Trust and Inequality|Financial Inequality and Social Capital|Biomarkers of Inequality" | split: "|" %}
+<div class="research-topics">
 
-<div class="category-tabs">
-  {% for cat in category_order %}
-    <button class="category-tab" data-category="{{ cat | slugify }}">{{ cat }}</button>
-  {% endfor %}
+  <details class="research-topic">
+    <summary>Trust and inequality</summary>
+    <div class="research-blurb">
+      <p>
+        Write one paragraph here that describes the projects under this topic.
+        For example: we study how group membership and socioeconomic status shape trust and
+        reciprocity between advantaged and disadvantaged individuals, including how shared
+        social identity can promote cooperation in unequal societies.
+      </p>
+    </div>
+  </details>
+
+  <details class="research-topic">
+    <summary>Cooperation and partner choice</summary>
+    <div class="research-blurb">
+      <p>
+        We examine how inequality in resources and productivity affects with whom people choose
+        to cooperate, how much they cooperate, and how punishment interacts with partner choice.
+        This work is conducted with the University of Groningen and the University of Zurich.
+      </p>
+    </div>
+  </details>
+
+  <details class="research-topic">
+    <summary>Financial stress and decision-making</summary>
+    <div class="research-blurb">
+      <p>
+        We study how income volatility and limited retirement provision shape psychological
+        well-being and financial decisions, among freelancers, self-employed workers and
+        employees in underdeveloped pension systems.
+      </p>
+    </div>
+  </details>
+
+  <details class="research-topic">
+    <summary>Social capital and mobility</summary>
+    <div class="research-blurb">
+      <p>
+        We test whether social capital prevents downward mobility and whether third parties
+        take it into account when evaluating a person's achievements.
+      </p>
+    </div>
+  </details>
+
 </div>
-
-<div class="projects">
-  {% for cat in category_order %}
-    {% assign cat_projects = site.projects | where: "category", cat | sort: "importance" %}
-    {% if cat_projects.size > 0 %}
-      <div class="category-section" id="{{ cat | slugify }}" style="display: none;">
-        <h2 class="category-title">{{ cat }}</h2>
-        <div class="row row-cols-1">
-          {% for project in cat_projects %}
-            {% include projects.liquid %}
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const tabs = document.querySelectorAll('.category-tab');
-  const sections = document.querySelectorAll('.category-section');
-
-  tabs.forEach(tab => {
-    tab.addEventListener('click', function () {
-      const target = this.dataset.category;
-
-      sections.forEach(section => {
-        section.style.display = section.id === target ? 'block' : 'none';
-      });
-
-      tabs.forEach(t => t.classList.remove('active'));
-      this.classList.add('active');
-    });
-  });
-
-  // Show the first category by default
-  if (tabs.length > 0) tabs[0].click();
-});
-</script>
-
-<style>
-.category-tabs {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-}
-
-.category-tab {
-  padding: 8px 16px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  background: transparent;
-  cursor: pointer;
-  font-size: 0.95rem;
-}
-
-.category-tab.active {
-  background: #333;
-  color: #fff;
-  border-color: #333;
-}
-</style>
