@@ -23,35 +23,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "dropdown-all-projects",
-              title: "All Projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/research/";
-              },
-            },{id: "dropdown-trust-and-inequality",
-              title: "Trust and Inequality",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/research/#trust-and-inequality";
-              },
-            },{id: "dropdown-financial-inequality-and-social-capital",
-              title: "Financial Inequality and Social Capital",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/research/#financial-inequality-and-social-capital";
-              },
-            },{id: "dropdown-biomarkers-of-inequality",
-              title: "Biomarkers of Inequality",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/research/#biomarkers-of-inequality";
-              },
-            },{id: "nav-contact",
+        },{id: "nav-research",
+          title: "Research",
+          description: "Research topics at the Social Inequality Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-contact",
           title: "Contact",
           description: "",
           section: "Navigation",
