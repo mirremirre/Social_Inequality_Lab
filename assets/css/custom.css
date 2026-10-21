@@ -90,6 +90,7 @@ a:hover {
   float: right;
   color: #8b66bc;
   font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .research-topic[open] summary::after {
@@ -102,4 +103,6 @@ a:hover {
 
 .research-blurb {
   padding: 14px 18px 4px 18px;
+  font-size: 1.15rem;  
+  line-height: 1.7;
 }
