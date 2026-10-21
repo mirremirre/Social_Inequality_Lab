@@ -75,7 +75,7 @@ a:hover {
 .research-topic summary {
   cursor: pointer;
   padding: 14px 18px;
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: #0D1B2A;
   list-style: none;
@@ -90,7 +90,6 @@ a:hover {
   float: right;
   color: #8b66bc;
   font-weight: 700;
-  font-size: 1.4rem;
 }
 
 .research-topic[open] summary::after {
