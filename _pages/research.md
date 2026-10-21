@@ -10,7 +10,7 @@ nav_order: 4
 <div class="research-topics">
 
   <details class="research-topic">
-    <summary>Trust and inequality</summary>
+    <summary>Trust and Inequality</summary>
     <div class="research-blurb">
       <p>
         Write one paragraph here that describes the projects under this topic.
@@ -22,7 +22,7 @@ nav_order: 4
   </details>
 
   <details class="research-topic">
-    <summary>Cooperation and partner choice</summary>
+    <summary>Cooperation and Partner Choice</summary>
     <div class="research-blurb">
       <p>
         We examine how inequality in resources and productivity affects with whom people choose
@@ -33,7 +33,7 @@ nav_order: 4
   </details>
 
   <details class="research-topic">
-    <summary>Financial stress and decision-making</summary>
+    <summary>Financial stress and Decision-Making</summary>
     <div class="research-blurb">
       <p>
         We study how income volatility and limited retirement provision shape psychological
@@ -44,7 +44,7 @@ nav_order: 4
   </details>
 
   <details class="research-topic">
-    <summary>Social capital and mobility</summary>
+    <summary>Social Capital and Mobility</summary>
     <div class="research-blurb">
       <p>
         We test whether social capital prevents downward mobility and whether third parties
