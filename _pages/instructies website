@@ -1,0 +1,59 @@
+#Instructies 
+#1. Afbeelding uploaden
+Ga naar de map assets/img/.
+Klik Add file → Upload files en sleep de afbeelding erin.
+Commit met een korte boodschap, bijvoorbeeld Add photo.
+
+#2. Iemand toevoegen aan het team
+Upload de pasfoto naar assets/img/ (stap 1).
+Maak in _pages/ een nieuw bestand, bijvoorbeeld about_jan.md, met dit erin:
+   ---
+   ---
+   **Jan ...** is promovendus bij ...
+Open _pages/people.md en plak een nieuw blok onder profiles:, op de juiste plek:
+yaml
+     - align: right
+       image: jan.jpeg
+       content: about_jan.md
+       image_circular: true
+       more_info: >
+         <p>PhD Student</p>
+         <p><a href="mailto:jan@voorbeeld.nl">jan@voorbeeld.nl</a></p>
+#Commit.
+
+#3. Een project of onderwerp toevoegen
+
+De Research-pagina gebruikt nu één tekstblok per onderwerp, geen projectkaartjes meer.
+
+Open _pages/research.md.
+Kopieer een bestaand <details class="research-topic">-blok (tot en met </details>).
+Pas de titel in <summary> en de tekst in <p> aan.
+Commit.
+
+#4 Een publicatie toevoegen
+Open _bibliography/papers.bib.
+Plak onderaan een nieuw item in hetzelfde format:
+bibtex
+   @article{achternaam2026kernwoord,
+     title   = {Titel van het artikel},
+     author  = {Achternaam, Voornaam and Stallen, Mirre},
+     journal = {Naam van het tijdschrift},
+     year    = {2026},
+     volume  = {1},
+     number  = {1},
+     pages   = {1--10},
+     doi     = {10.xxxx/xxxxx}
+   }
+Commit. De pagina sorteert zelf op jaar.
+
+#5. Tekst op een pagina aanpassen
+Homepage: _pages/about.md
+Teamteksten: _pages/about_naam.md
+Research: _pages/research.md
+Publicaties: _bibliography/papers.bib
+
+Open het bestand, klik op het potlood, pas de tekst aan en commit. Verander niets tussen de --- bovenaan, tenzij je weet wat het doet.
+
+#6. Volgorde van de menubalk wijzigen
+
+Pas nav_order aan in de ----kop van elk paginabestand in _pages/. Laagste getal staat links.
