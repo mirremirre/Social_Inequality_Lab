@@ -9,8 +9,8 @@ nav_order: 4
 
 <div class="research-topics">
 
-  <details class="research-topic">
-    <summary>Trust and Inequality</summary>
+  <section class="research-topic">
+    <h2 class="research-title">Trust and Inequality</h2>
     <div class="research-blurb">
       <p>
         Write one paragraph here that describes the projects under this topic.
@@ -19,10 +19,10 @@ nav_order: 4
         social identity can promote cooperation in unequal societies.
       </p>
     </div>
-  </details>
+  </section>
 
-  <details class="research-topic">
-    <summary>Cooperation and Partner Choice</summary>
+  <section class="research-topic">
+    <h2 class="research-title">Cooperation and Partner Choice</h2>
     <div class="research-blurb">
       <p>
         We examine how inequality in resources and productivity affects with whom people choose
@@ -30,10 +30,10 @@ nav_order: 4
         This work is conducted with the University of Groningen and the University of Zurich.
       </p>
     </div>
-  </details>
+  </section>
 
-  <details class="research-topic">
-    <summary>Financial stress and Decision-Making</summary>
+  <section class="research-topic">
+    <h2 class="research-title">Financial Stress and Decision-Making</h2>
     <div class="research-blurb">
       <p>
         We study how income volatility and limited retirement provision shape psychological
@@ -41,16 +41,16 @@ nav_order: 4
         employees in underdeveloped pension systems.
       </p>
     </div>
-  </details>
+  </section>
 
-  <details class="research-topic">
-    <summary>Social Capital and Mobility</summary>
+  <section class="research-topic">
+    <h2 class="research-title">Social Capital and Mobility</h2>
     <div class="research-blurb">
       <p>
         We test whether social capital prevents downward mobility and whether third parties
         take it into account when evaluating a person's achievements.
       </p>
     </div>
-  </details>
+  </section>
 
 </div>
