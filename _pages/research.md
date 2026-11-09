@@ -13,8 +13,7 @@ nav_order: 4
     <h2 class="research-title"> Trust and Inequality</h2>
     <div class="research-blurb">
       <p>
-        We study how subjective socioeconomic status shape trust between advantaged and disadvantaged individuals, including how shared
-        social identity can promote cooperation in unequal societies.
+        We study how group membership and (subjective) socioeconomic status shape trust and reciprocity between advantaged and disadvantaged individuals, including how shared social identity can promote cooperation in unequal societies.
       </p>
     </div>
   </section>
